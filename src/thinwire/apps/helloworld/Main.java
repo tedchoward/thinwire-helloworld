@@ -28,7 +28,7 @@ import thinwire.ui.event.*;
 /**
  * @author Joshua J. Gertzen
  */
-public class Main {
+public class Main extends thinwire.render.web.WebServlet {
     public static void main(String[] args) {
         //Create and set initial position for components
         final Dialog dialog = new Dialog("Hello World, ThinWire Style!");
